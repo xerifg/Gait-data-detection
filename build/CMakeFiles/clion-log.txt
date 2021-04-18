@@ -1,0 +1,56 @@
+/home/xrf/clion/CLion-2020.3.1/clion-2020.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/xrf/catkin_ws/src
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/xrf/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/xrf/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/xrf/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/xrf/catkin_ws/build/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 4 packages in topological order:
+-- ~~  - realsense2_description
+-- ~~  - ddynamic_reconfigure
+-- ~~  - cam_show
+-- ~~  - realsense2_camera
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'realsense2_description'
+-- ==> add_subdirectory(realsense-ros/realsense2_description)
+-- +++ processing catkin package: 'ddynamic_reconfigure'
+-- ==> add_subdirectory(ddynamic_reconfigure)
+-- +++ processing catkin package: 'cam_show'
+-- ==> add_subdirectory(cam_show)
+Opencv version: 3.2.0
+-- +++ processing catkin package: 'realsense2_camera'
+-- ==> add_subdirectory(realsense-ros/realsense2_camera)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Create Debug Build.
+-- realsense2_camera: 2 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xrf/catkin_ws/build

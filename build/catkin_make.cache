@@ -1,0 +1,2 @@
+cam_show:ddynamic_reconfigure:realsense-ros/realsense2_camera:realsense-ros/realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/xrf/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/xrf/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,15 @@
+<launch>
+
+   <node
+	name="one"
+	pkg="cam_show"
+	type="one"
+	output="screen"
+	required="true"
+   />
+   
+
+	<include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+
+
+</launch>
