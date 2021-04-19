@@ -26,8 +26,6 @@ Download the source codes to your computer
 git clone https://github.com/xerifg/Gait-data-detection.git
 ```
 
-
-
 ### step 1 Compilation Workspace
 
 ```c++
@@ -70,17 +68,25 @@ You **must** change five paths to yours in **object_capture.cpp**
 165: outfileCenterPosition.open("/home/xrf/catkin_ws/src/cam_show/CenterPosition.txt", ios::app);
 
 1241: string imagestore = "/home/xrf/catkin_ws/picture/";
+
+1302: fstream file("/home/xrf/catkin_ws/Results/data1.txt", ios::out);
+
+1303: fstream file2("/home/xrf/catkin_ws/Results/data2.txt", ios::out);
+
+1304: fstream file3("/home/xrf/catkin_ws/Results/data3.txt", ios::out);
+
+1305: fstream file4("/home/xrf/catkin_ws/Results/CenterPosition.txt", ios::out);
 ```
 
 You need to create a folder named `pricture` if you want to save all process pictures.
 
 ```c++
- cd Gait-data-detection
+cd Gait-data-detection
 
 mkdir picture
 ```
 
-You should preferably use a clean background (no color similar to the color of the tracking target) in order to make the experiment accurate. This is really important.
+<u>You should preferably use a clean background (no color similar to the color of the tracking target) in order to make the experiment accurate. This is really important.</u>
 
 Then you preferably  affix the targets to your leg firmly, like in this picture below, **importantly,**because of a bug in my codes,you should have a Initial angle like the picture below around your knee .
 

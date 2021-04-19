@@ -122,7 +122,7 @@ double get_wall_time()
 
 ////////////////////////////////      保存数据函数      //////////////////////////////////////
 void writeLog(float data1 ,int num_x)    /////Point_<float>
-{ outfile.open("/home/xrf/catkin_ws/src/cam_show/data1.txt", ios::app);//追加模式
+{ outfile.open("/home/xrf/catkin_ws/Results/data1.txt", ios::app);//追加模式
   //  fstream file("/home/ethan/catkin_ws/src/cam_show/data1.txt", ios::out); //清空文件内容
     if (!outfile) //检查文件是否正常打开//不是用于检查文件是否存在
     {
@@ -135,7 +135,7 @@ void writeLog(float data1 ,int num_x)    /////Point_<float>
 }
 void writeLog_2(float data2 ,int num_x)    /////Point_<float>
 {
-    outfile2.open("/home/xrf/catkin_ws/src/cam_show/data2.txt", ios::app);//追加模式
+    outfile2.open("/home/xrf/catkin_ws/Results/data2.txt", ios::app);//追加模式
   //  fstream file("/home/ethan/catkin_ws/src/cam_show/data2.txt", ios::out);
     if (!outfile2) //检查文件是否正常打开//不是用于检查文件是否存在
     {
@@ -148,7 +148,7 @@ void writeLog_2(float data2 ,int num_x)    /////Point_<float>
 }
 void writeLog_3(float data3 ,int num_x)    /////Point_<float>
 {
-    outfile3.open("/home/xrf/catkin_ws/src/cam_show/data3.txt", ios::app);//追加模式
+    outfile3.open("/home/xrf/catkin_ws/Results/data3.txt", ios::app);//追加模式
     //  fstream file("/home/ethan/catkin_ws/src/cam_show/data2.txt", ios::out);
     if (!outfile3) //检查文件是否正常打开//不是用于检查文件是否存在
     {
@@ -162,7 +162,7 @@ void writeLog_3(float data3 ,int num_x)    /////Point_<float>
 
 void writeLog_outfileCenterPosition(float center_x[6],float center_y[6])    /////Point_<float>
 {
-    outfileCenterPosition.open("/home/xrf/catkin_ws/src/cam_show/CenterPosition.txt", ios::app);//追加模式
+    outfileCenterPosition.open("/home/xrf/catkin_ws/Results/CenterPosition.txt", ios::app);//追加模式
     if (!outfileCenterPosition) //检查文件是否正常打开//不是用于检查文件是否存在
     {
         cout << "CenterPosition.txt can't open" << endl;
@@ -1299,10 +1299,10 @@ public:
 int main(int argc, char** argv)
 {
 
-    fstream file("/home/xrf/catkin_ws/src/cam_show/data1.txt", ios::out); //清空文件内容
-    fstream file2("/home/xrf/catkin_ws/src/cam_show/data2.txt", ios::out);
-    fstream file3("/home/xrf/catkin_ws/src/cam_show/data3.txt", ios::out);
-    fstream file4("/home/xrf/catkin_ws/src/cam_show/CenterPosition.txt", ios::out);
+    fstream file("/home/xrf/catkin_ws/Results/data1.txt", ios::out); //清空文件内容
+    fstream file2("/home/xrf/catkin_ws/Results/data2.txt", ios::out);
+    fstream file3("/home/xrf/catkin_ws/Results/data3.txt", ios::out);
+    fstream file4("/home/xrf/catkin_ws/Results/CenterPosition.txt", ios::out);
 
     char* path = "/home/xrf/catkin_ws/picture";//删除文件夹里面保存的图片
     DeleteFile(path);
