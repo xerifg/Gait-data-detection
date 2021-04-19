@@ -1,5 +1,5 @@
 ---
-typora-copy-images-to: ../Desktop
+
 ---
 
 # Gait-data-detection
@@ -86,4 +86,4 @@ Then you preferably  affix the targets to your leg firmly, like in this picture 
 
 # Experimental results
 
-![](/Gait-data-detection/Results/result.jpg)
+![image](https://github.com/xerifg/Gait-data-detection/tree/master/Results/result.jpg)
