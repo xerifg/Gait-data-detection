@@ -58,6 +58,20 @@ you will find four txt files:data1.txt(the first angle), data2.txt(the secend an
 
 ### Note:
 
+You **must** change five paths to yours in **object_capture.cpp**
+
+```c++
+125: outfile.open("/home/xrf/catkin_ws/src/cam_show/data1.txt", ios::app);
+
+138: outfile2.open("/home/xrf/catkin_ws/src/cam_show/data2.txt", ios::app);
+
+151: outfile3.open("/home/xrf/catkin_ws/src/cam_show/data3.txt", ios::app);
+
+165: outfileCenterPosition.open("/home/xrf/catkin_ws/src/cam_show/CenterPosition.txt", ios::app);
+
+1241: string imagestore = "/home/xrf/catkin_ws/picture/";
+```
+
 You need to create a folder named `pricture` if you want to save all process pictures.
 
 ```c++
@@ -72,4 +86,4 @@ Then you preferably  affix the targets to your leg firmly, like in this picture 
 
 # Experimental results
 
-![result](/home/xrf/catkin_ws/Results/result.jpg)
+![](/Gait-data-detection/Results/result.jpg)
