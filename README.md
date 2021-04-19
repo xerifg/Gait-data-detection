@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: ../Desktop
+---
+
 # Gait-data-detection
 Gait data detection based on improved *<u>camshif</u>*t algorithm
 
@@ -54,7 +58,7 @@ you will find four txt files:data1.txt(the first angle), data2.txt(the secend an
 
 ### Note:
 
-You need create a folder named `pricture` if you want to save all process pictures.
+You need to create a folder named `pricture` if you want to save all process pictures.
 
 ```c++
  cd Gait-data-detection
@@ -68,4 +72,4 @@ Then you preferably  affix the targets to your leg firmly, like in this picture 
 
 # Experimental results
 
-![](/home/xrf/Desktop/39.jpg)
+![result](/home/xrf/catkin_ws/Results/result.jpg)
