@@ -2,7 +2,10 @@
 
 ---
 
+![result](https://github.com/xerifg/Gait-data-detection/blob/master/Results/show.gif)
+
 # Gait-data-detection
+
 Gait data detection based on improved *<u>camshif</u>*t algorithm
 
 In this project. l used improved <u>*camshift*</u> algorithm and added a *<u>kalman</u>* to track six targets precisely. The test found that you even can run ,and the targets won't miss in the future.
